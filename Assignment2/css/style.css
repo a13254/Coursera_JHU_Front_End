@@ -1,0 +1,77 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+section {
+	width:30%;
+	box-sizing: border-box;
+	float:left;
+	background-color: #d3d3d3;
+	margin:1.5%;
+	border-style: solid;
+	height:250px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	section {
+		width:45%;
+		margin:1%;
+	}
+	section.lambsection{
+		width:92%;
+		height:150px;
+	}
+	section>#lamb{
+		width:36.8%;
+		line-height: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	section {
+		float:none;
+		width:95%;
+		margin:1%;
+		height:250px;
+		overflow:scroll;
+	}
+}
+
+h2 {
+	text-align: center;
+	float: right;
+	border-style: solid;
+	border-top:0;
+	border-right: 0;
+	margin-top:0;
+	margin-right:0;
+	margin-bottom: 1%;
+	padding:1%;
+	width: 40%;
+	height:12%;
+	line-height: 150%;
+
+}
+#chicken{
+	background-color: #FF8080;
+}
+#beef{
+	background-color: #FF0080;
+	color :#FFFFFF;
+	border-color: #000000;
+}
+#lamb{
+	background-color: #00FF80;
+}
+
+
+p {
+	clear:both;
+	padding:2%;
+	padding-top:2%;
+	margin:1%;
+}
